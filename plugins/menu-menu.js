@@ -63,10 +63,10 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
     
 
 let str = `
-╔══❖𝙼𝙴𝙽𝙷𝙴𝚁𝙰 𝙲𝙷𝙰𝙽 𝙱𝙾𝚃❖══╗
+╔══❖VICO 𝙱𝙾𝚃❖══╗
 ║⋠⃟  ๖ۣۜۜ͜͡𝐇𝐨𝐥𝐚ঔৣֳ᷌᷈͜͡ ${name}💖✨ 
 ║⋠⃟  📅 𝙵𝙴𝙲𝙷𝙰: ${week}, ${date}
-║⋠⃟ 🔋𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime}
+║⋠⃟  🔋𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime}
 ║⋠⃟  📊 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂: ${rtotalreg}
 ╚══════════════════╝
 
