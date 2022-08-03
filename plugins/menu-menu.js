@@ -515,7 +515,7 @@ let str = `
 ║⋠⃟🥀 _${usedPrefix}fraseromantica_
 ╚════❖•ೋ° °ೋ•❖════╝*
 `.trim()
-conn.sendHydrated(m.chat, str, wm, pp, 'https://github.com/Francisco5002/Menhera-Chan-Bot', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
+conn.sendHydrated(m.chat, str, wm, pp, 'https://wa.me/c/5213223737829', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
 ['🌠𝙸𝙽𝙵𝙾𝙱𝙾𝚃🌠', '/infobot'],
 ['⏳𝙾𝚆𝙽𝙴𝚁⏳','/owner'],
 
