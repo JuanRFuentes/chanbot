@@ -65,10 +65,10 @@ global.APIKeys = { // APIKey Here
 
 // Sticker WM
 global.packname = '𖠌'
-global.author = '★𝙼𝙴𝙽𝙷𝙴𝚁𝙰 𝙲𝙷𝙰𝙽 𝙱𝙾𝚃★'
+global.author = '★VICO𝙱𝙾𝚃★'
 
-global.wm = '★𝙼𝙴𝙽𝙷𝙴𝚁𝙰 𝙲𝙷𝙰𝙽 𝙱𝙾𝚃★'
-global.igfg = '★𝙼𝙴𝙽𝙷𝙴𝚁𝙰 𝙲𝙷𝙰𝙽 𝙱𝙾𝚃★'
+global.wm = '★vico2 𝙱𝙾𝚃★'
+global.igfg = '★VICO3 𝙱𝙾𝚃★'
 global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ﹐ ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg')
