@@ -28,7 +28,7 @@ let buttonMessage= {
 {buttonId: `${usedPrefix}speed`, buttonText: {displayText: '𝚂𝙿𝙴𝙴𝙳'}, type: 1}],
 'headerType': 6 }
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })
-let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝑩𝒓𝒖𝒏𝒐 𝑺𝒐𝒃𝒓𝒊𝒏𝒐 👑;;;\nFN:𝑭𝒓𝒂𝒏𝒄𝒊𝒔𝒄𝒐 👑\nORG:𝑭𝒓𝒂𝒏𝒄𝒊𝒔𝒄𝒐 👑\nTITLE:\nitem1.TEL;waid=529852276662:+52 985 227 6662\nitem1.X-ABLabel:𝑭𝒓𝒂𝒏𝒄𝒊𝒔𝒄𝒐 👑\nX-WA-BIZ-DESCRIPTION:[❗] ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:𝑩𝒓𝒖𝒏𝒐 𝑺𝒐𝒃𝒓𝒊𝒏𝒐 👑\nEND:VCARD`
+let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝑩𝒓𝒖𝒏𝒐 𝑺𝒐𝒃𝒓𝒊𝒏𝒐 👑;;;\nFN:𝑭𝒓𝒂𝒏𝒄𝒊𝒔𝒄𝒐 👑\nORG:𝑭𝒓𝒂𝒏𝒄𝒊𝒔𝒄𝒐 👑\nTITLE:\nitem1.TEL;waid=523221383036:+52 985 227 6662\nitem1.X-ABLabel:𝑭𝒓𝒂𝒏𝒄𝒊𝒔𝒄𝒐 👑\nX-WA-BIZ-DESCRIPTION:[❗] ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:𝑩𝒓𝒖𝒏𝒐 𝑺𝒐𝒃𝒓𝒊𝒏𝒐 👑\nEND:VCARD`
 await conn.sendMessage(m.chat, { contacts: { displayName: 'Francisco :^👑', contacts: [{ vcard }] }}, {quoted: m})
 const data = global.owner.filter(([id, isCreator]) => id && isCreator)
 await conn.sendContact(m.chat, data.map(([id, name]) => [id, name]), m)
