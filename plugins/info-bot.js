@@ -5,7 +5,7 @@ handler.all = async function (m) {
 let vn = './media/bot.mp3'
 const estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) },
 message: { 
-orderMessage: { itemCount : -999999, status: 1, surface : 1, message: '𝑀𝑒𝑛ℎ𝑒𝑟𝑎 𝐶ℎ𝑎𝑛', orderTitle: 'Bang', thumbnail: fs.readFileSync('./Menu2.jpg'), sellerJid: '0@s.whatsapp.net'    
+orderMessage: { itemCount : -999999, status: 1, surface : 1, message: '𝑀𝑒𝑛ℎ𝑒𝑟𝑎 𝐶ℎ𝑎𝑛', orderTitle: 'Bang', thumbnail: fs.readFileSync('./Menu2.jpg'), sellerJid: '528000407777@s.whatsapp.net'    
 }}}
 const estiloaudio = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "529852276662-1625305606@g.us" } : {}) },
 message: { 
