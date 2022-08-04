@@ -515,7 +515,7 @@ let str = `
 ║⋠⃟🥀 _${usedPrefix}fraseromantica_
 ╚════❖•ೋ° °ೋ•❖════╝*
 `.trim()
-conn.sendHydrated(m.chat, str, wm, pp, 'https://wa.me/c/5213223737829', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
+conn.sendHydrated(m.chat, str, wm, pp, 'https://wa.me/c/5213223737829', 'CATALOGO', null, null, [
 ['🌠𝙸𝙽𝙵𝙾𝙱𝙾𝚃🌠', '/infobot'],
 ['⏳𝙾𝚆𝙽𝙴𝚁⏳','/owner'],
 
@@ -523,35 +523,8 @@ conn.sendHydrated(m.chat, str, wm, pp, 'https://wa.me/c/5213223737829', '𝙶�
 ], m,)
  
 
-const sendMsg = await sock.sendMessage(id, templateMessage)
 
-// send a list message!
-const sections = [
-    {
-	title: "Section 1",
-	rows: [
-	    {title: "Option 1", rowId: "option1"},
-	    {title: "Option 2", rowId: "option2", description: "This is a description"}
-	]
-    },
-   {
-	title: "Section 2",
-	rows: [
-	    {title: "Option 3", rowId: "option3"},
-	    {title: "Option 4", rowId: "option4", description: "This is a description V2"}
-	]
-    },
-]
 
-const listMessage = {
-  text: "This is a list",
-  footer: "nice footer, link: https://google.com",
-  title: "Amazing boldfaced list title",
-  buttonText: "Required, text on the button to view the list",
-  sections
-}
-
-const sendMsg = await sock.sendMessage(id, listMessage) 
 //await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, {
 //type: 'audioMessage', 
 //ptt: true})
