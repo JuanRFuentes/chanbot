@@ -1,7 +1,7 @@
 let handler = async (m, { conn, usedPrefix }) => {
-var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
+var saludo1 = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]    
-let text = `
+let text1 = `
 *—◉ 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝙼𝙸 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 yu𝙴𝚂 wa.me/529852276662*
 `.trim()   
 let buttonMessage= {
@@ -21,7 +21,7 @@ let buttonMessage= {
 'body': wm,
 'thumbnail': imagen1,
 'sourceUrl': 'https://youtu.be/TsNc66xsF1o' }},
-'caption': text,
+'caption': text1,
 'footer': wm,
 'buttons':[
 {buttonId: `${usedPrefix}menu`, buttonText: {displayText: '𝙼𝙴𝙽𝚄'}, type: 1}, 
@@ -35,5 +35,5 @@ await conn.sendContact(m.chat, data.map(([id, name]) => [id, name]), m)
 }
 handler.help = ['owner', 'creator']
 handler.tags = ['info']
-handler.command = /^( vico| vicomenu| 1212| aplauso)$/i
+handler.command = /^(vico|vicomenu|1212|aplauso)$/i
 export default handler
